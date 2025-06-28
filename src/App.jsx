@@ -7,8 +7,11 @@ export default function App() {
       <div>
         <Link to="/PageB">Go to Page B</Link>
       </div>
+      <Link to="/PageB">
+        <button>
+          Go to Page B
+        </button>
+      </Link>
     </>
   )
 }
-
-
