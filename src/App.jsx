@@ -5,7 +5,7 @@ export default function App() {
   return (
     <>
       <div>
-        <Link to="/PageB">Go to Page B</Link>
+        <p>この<Link to="/PageB">ボタン</Link>を押すとPageBにいけます</p>
       </div>
       <Link to="/PageB">
         <button>
